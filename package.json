@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy:gh":"ng build --prod --base-href='https://Islem54151.github.io/islemnasraoui/' && sudo ngh"
   },
   "private": true,
   "dependencies": {
